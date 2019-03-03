@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Dynamic Width and Height</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <p id="width50">
+            Width 50%, no min or max
+        </p>
+        <p id="width80max">
+            Width 80%, max of 1000px
+        </p>
+        <p id="width30min">
+            Width 30%, min of 200px
+        </p>
+        <p class="heightSet">
+            The height is set to 25%, but there is no affect
+        </p>
+        <div id="containingBlock">
+            <p class="heightSet">
+this height is also set to 25%, and since it's within a div containing block who has a set height of 500px this p will resize in relation to that. 
+         </p>
+        </div>
+
+    
+    </body>
+</html>
